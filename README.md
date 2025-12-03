@@ -6,3 +6,11 @@
 
 ### 🌐 Project Workflow 
 ``` Excel  →  Python  →  SQL  →  Power BI ```
+
+### * Excel: Initial understanding, summary metrics, pivot tables, dashboard
+
+### * Python: Cleaning, feature engineering, outlier checks, EDA
+
+### * SQL: Tables, cleaning, KPIs, segmentation, cohorts
+
+### * Power BI: Visual dashboard with DAX measures and interactive insights
