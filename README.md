@@ -16,23 +16,22 @@ SQL: Create tables, clean data, calculate portfolio KPIs, segmentation, cohorts.
 
 Power BI: Visual dashboard with DAX measures and interactive insights.
 
-📁 Project Structure
-│── README.md                      # Project documentation
+│── README.md
 │── data/
-│   ├── raw                        # Original CSV and Excel files
-│
+│   ├── raw/
+│   └── processed/
 │── notebooks/
-│   └── Loan_Analysis.ipynb        # Full Python EDA notebook
+│   └── Loan_Analysis.ipynb
 │── sql/
-│   ├── 01_schema.sql              # Create tables + datatypes
-│   ├── 02_data_cleaning.sql       # Cleaning, fixing dates, nulls
-│   ├── 03_portfolio_kpis.sql      # Good vs Bad KPIs, DTI analysis
-│   └── 04_segmentation.sql        # Grade / Purpose / State splits
+│   ├── 01_schema.sql
+│   ├── 02_cleaning.sql
+│   ├── 03_kpis.sql
+│   └── 04_segmentation.sql
 │── dashboards/
-│   ├── Loan_Dashboard_Excel.xlsx  # Excel dashboard
-│   └── Loan_Dashboard_PowerBI.pbix# Power BI dashboard
+│   ├── Loan_Dashboard_Excel.xlsx
+│   └── Loan_Dashboard_PowerBI.pbix
 │── images/
-│   └── dashboard_preview.png      # Power BI screenshot
+│   └── dashboard_preview.png
 
 🟦 1. Excel — Initial Analysis
 ✔ What I did in Excel
