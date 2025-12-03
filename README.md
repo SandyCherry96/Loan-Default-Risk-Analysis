@@ -33,6 +33,7 @@ Power BI: Visual dashboard with DAX measures and interactive insights.
 │── images/
 │   └── dashboard_preview.png
 
+
 🟦 1. Excel — Initial Analysis
 ✔ What I did in Excel
 
